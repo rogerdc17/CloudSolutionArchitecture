@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit Book - ABCBOOKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <div id="dashboard-container">
+        <div id="dashboard-header">
+            <div><h3>ABCbooks.com</h3></div>
+            <button class="btn-add" onclick="window.location.href='index.html'">Home</button>
+            <button class="btn-add" onclick="window.location.href='dashboard.html'">Dashboard</button>
+        </div>
+    </div>
+    <h1></h1>
+    <div id="edit-book-container">
+        <div class="form-box">
+        <h2>Edit Book</h2>
+        <input type="hidden" id="edit-book-id">
+        <input type="text" id="edit-title" placeholder="Title">
+        <input type="text" id="edit-authors" placeholder="Authors">
+        <input type="text" id="edit-publisher" placeholder="Publisher">
+        <input type="number" id="edit-year" placeholder="Year">
+        <button class="btn-edit" onclick="updateBook()">Update</button>
+        <button class="btn-cancel" onclick="window.location.href='dashboard.html'">Cancel</button>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2024 ABCBOOKS. All rights reserved.</p>
+    </div>
+
+    <div id="notification" class="hidden"></div>
+
+    <script src="app.js"></script>
+   
+</body>
+</html>

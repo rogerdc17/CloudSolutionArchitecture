@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard - ABCBOOKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <div id="dashboard-container">
+        <div id="dashboard-header">
+            <div><h3>ABCbooks.com</h3></div>
+            <button class="btn-add" onclick="window.location.href='add-book.html'">Add Book</button>
+            <button class="btn-add" onclick="window.location.href='index.html'">Logout</button>            
+        </div>
+        <h1>
+            Book Collection Dashboard
+        </h1>
+        <div id="book-list"></div>
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2024 ABCBOOKS. All rights reserved.</p>
+    </div>
+
+    <div id="notification" class="hidden"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

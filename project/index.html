@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - ABCBOOKS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <div id="dashboard-container">
+        <div id="dashboard-header">
+            <div><h3>ABCbooks.com</h3></div>
+            <button class="btn-add" onclick="window.location.href='https://abcbooks.auth.us-east-1.amazoncognito.com/login?client_id=l4decrjfmrtgv85cs8irpgogt&response_type=code&scope=email+openid+phone&redirect_uri=https%3A%2F%2Fs3.amazonaws.com%2Fabcbooks.com%2Fdashboard.html'">Login</button>
+        </div>
+    </div>
+
+    <div id="dashboard-container">
+        <h1>Welcome to ABCBOOKS</h1>
+        <p>Your ultimate book collection dashboard.</p>
+        <h3>Why Choose ABC Books?</h3>
+            <ul>
+                <li><strong>Curated Recommendations:</strong> Get personalized book recommendations based on your reading history and preferences.</li>
+                <li><strong>Organize Your Collection:</strong> Easily keep track of your books, from new reads to cherished classics.</li>
+                <li><strong>Connect with Fellow Readers:</strong> Join a community of like-minded book enthusiasts and share your thoughts on your latest reads.</li>
+                <li><strong>Exclusive Content:</strong> Access special offers, reviews, and book-related content that you won’t find anywhere else.</li>
+            </ul>     
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2024 ABCBOOKS. All rights reserved.</p>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
